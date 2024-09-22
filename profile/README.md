@@ -1,4 +1,4 @@
-![logo](https://github.com/user-attachments/assets/afc36a4c-f980-42e5-b5ff-c64e51c9eb22)
+![logo](https://github.com/user-attachments/assets/55e25131-bcf8-4c13-bf4f-67a816754d4d)
 # 벌집
 ## Kubernetes 를 활용한 마이크로서비스 아키텍쳐(MSA) 기반의 그룹웨어
 클라우드 기반 데브옵스 프로젝트 개발 과정\
@@ -20,7 +20,7 @@ Kubernetes 를 활용한 MSA(Micro Service Architecture) 기반의 그룹웨어 
 ## 팀원 소개
 |정진욱|김창인|박보민|손가원|신완철|황재웅|
 |:-:|:-:|:-:|:-:|:-:|:-:|
-|<img src="https://github.com/user-attachments/assets/d05091b8-9afc-4787-b8da-ea23e04838cb" alt="정진욱" width="225" />|<img src="https://github.com/user-attachments/assets/d6bc701b-1c18-457e-a1fb-03132043a871" alt="김창인" width="225" />|<img src="https://github.com/user-attachments/assets/2fe94180-0a19-4a76-ae10-9186bca72e1b" alt="박보민" width="225" />|<img src="https://github.com/user-attachments/assets/64f01748-24dc-4150-a8bc-7fba62b4f520" alt="손가원" width="225" />|<img src="https://github.com/user-attachments/assets/cbac6405-45b2-4d72-9128-a4c9fa3c8827" alt="신완철" width="225" />|<img src="https://github.com/user-attachments/assets/9ad6792d-b2a6-4b00-8060-0a808d753617" alt="황재웅" width="225" />|
+|<img src="https://github.com/user-attachments/assets/32bc3037-92c0-488e-8b73-434cc747ef0f" alt="정진욱" width="225" />|<img src="https://github.com/user-attachments/assets/1856d47d-a062-49c0-9c5b-cb39e6bda50e" alt="김창인" width="225" />|<img src="https://github.com/user-attachments/assets/733e3700-87b7-4582-9a8b-202707a0da8a" alt="박보민" width="225" />|<img src="https://github.com/user-attachments/assets/fb7f848d-27ce-4d85-a5db-9932b916a044" alt="손가원" width="225" />|<img src="https://github.com/user-attachments/assets/51d4fffa-285e-4404-be6f-8bb000b8e8fb" alt="신완철" width="225" />|<img src="https://github.com/user-attachments/assets/bb0bf882-b748-40e7-846f-af09bd3bf1f5" alt="황재웅" width="225" />|
 |PM, Backend|Fronted|DevOps|Backend|Fronted|Fronted|
 |예약, 캘린더, 게시판, 채팅|메인페이지, 조직도, 전자결재|로그인|전자결재, 이메일, 채팅|게시판|예약, 메인페이지, 관리자페이지|
 
