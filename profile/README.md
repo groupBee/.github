@@ -29,8 +29,71 @@ Kubernetes 를 활용한 MSA(Micro Service Architecture) 기반의 그룹웨어 
 <p>
     <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white"/>
     <img src="https://img.shields.io/badge/Mui-007FFF?style=flat-square&logo=mui&logoColor=white"/>
+    <img src="https://img.shields.io/badge/OpenVidu-04d365?style=flat-square&logo=openvidu&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Zustand-433e38?style=flat-square&logo=zustand&logoColor=white"/>
+    <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=black"/>
+    <img src="https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css3&logoColor=white"/>
+    <img src="https://img.shields.io/badge/NPM-CB3837?style=flat-square&logo=npm&logoColor=white"/>
+    <img src="https://img.shields.io/badge/FullCalendar-4285F4?style=flat-square&logo=google-calendar&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Quill-333333?style=flat-square&logo=quill&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=flat-square&logo=bootstrap&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Axios-5A29E4?style=flat-square&logo=axios&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Dropzone-8742f5?style=flat-square&logo=&logoColor=white"/>
+    <img src="https://img.shields.io/badge/OpenWeather-EA7600?style=flat-square&logo=openweathermap&logoColor=white"/>
+    <img src="https://img.shields.io/badge/React_Router-CA4245?style=flat-square&logo=react-router&logoColor=white"/>
+    <img src="https://img.shields.io/badge/WebSocket-000000?style=flat-square&logo=websocket&logoColor=white"/>
 </p>
 
 ### Backend
+<p>
+    <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Spring_Cloud_OpenFeign-6DB33F?style=flat-square&logo=spring&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Apache%20Kafka-231F20?style=flat-square&logo=apache-kafka&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Swagger-85EA2D?style=flat-square&logo=swagger&logoColor=black"/>
+    <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white"/>
+    <img src="https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white"/>
+    <img src="https://img.shields.io/badge/QueryDSL-62a9f0?style=flat-square&logo=querydsl&logoColor=white"/>
+    <img src="https://img.shields.io/badge/MapStruct-d85a30?style=flat-square&logo=mapstruct&logoColor=white"/>
+    <img src="https://img.shields.io/badge/LDAP-EE0000?style=flat-square&logo=redhat&logoColor=white"/>
+    <img src="https://img.shields.io/badge/REST%20API-02569B?style=flat-square&logo=rest&logoColor=white"/>
+    <img src="https://img.shields.io/badge/XML_RPC-df7b2e?style=flat-square&logo=rest&logoColor=white"/>
+    <img src="https://img.shields.io/badge/JPA-Hibernate-59666C?style=flat-square&logo=hibernate&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Lombok-FFA500?style=flat-square&logo=lombok&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Gradle-02303A?style=flat-square&logo=gradle&logoColor=white"/>
+    <img src="https://img.shields.io/badge/JDK-17-007396?style=flat-square&logo=java&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Odoo-870048?style=flat-square&logo=odoo&logoColor=white"/>
+</p>
+
 ### Infra
+<p>
+    <img src="https://img.shields.io/badge/Kong-00203F?style=flat-square&logo=kong&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Fail2Ban-0085FF?style=flat-square&logo=fail2ban&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Istio-466BB0?style=flat-square&logo=istio&logoColor=white"/>
+    <img src="https://img.shields.io/badge/MinIO-00A3E0?style=flat-square&logo=minio&logoColor=white"/>
+    <img src="https://img.shields.io/badge/VMware-607078?style=flat-square&logo=vmware&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Argo-EF5B25?style=flat-square&logo=argo&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Helm-0F1689?style=flat-square&logo=helm&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white"/>
+    <img src="https://img.shields.io/badge/KubeSphere-3AA1FF?style=flat-square&logo=kubesphere&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Postfix-000000?style=flat-square&logo=postfix&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white"/>
+    <img src="https://img.shields.io/badge/.env-ECD53F?style=flat-square&logo=.env&logoColor=black"/>
+    <img src="https://img.shields.io/badge/Naver_Cloud-03C75A?style=flat-square&logo=naver&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Ubuntu-E95420?style=flat-square&logo=ubuntu&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Rocky%20Linux-10B981?style=flat-square&logo=rockylinux&logoColor=white"/>
+
+</p>
+
 ### Tool
+<p>
+    <img src="https://img.shields.io/badge/Jira-0052CC?style=flat-square&logo=jira&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Trello-0052CC?style=flat-square&logo=trello&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white"/>
+    <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Slack-4A154B?style=flat-square&logo=slack&logoColor=white"/>
+    <img src="https://img.shields.io/badge/IntelliJ%20IDEA-000000?style=flat-square&logo=intellij-idea&logoColor=white"/>
+    <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white"/>
+</p>
