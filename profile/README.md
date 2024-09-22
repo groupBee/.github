@@ -26,8 +26,10 @@ Kubernetes 를 활용한 MSA(Micro Service Architecture) 기반의 그룹웨어 
 
 ## Stacks
 ### Frontend
-<img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white"/>
-<img src="https://img.shields.io/badge/Mui-007FFF?style=flat-square&logo=mui&logoColor=white"/>
+<p>
+    <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Mui-007FFF?style=flat-square&logo=mui&logoColor=white"/>
+</p>
 
 ### Backend
 ### Infra
