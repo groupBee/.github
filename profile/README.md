@@ -29,7 +29,7 @@ Kubernetes 를 활용한 MSA(Micro Service Architecture) 기반의 그룹웨어 
 <p>
     <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white"/>
     <img src="https://img.shields.io/badge/Mui-007FFF?style=flat-square&logo=mui&logoColor=white"/>
-    <img src="https://img.shields.io/badge/OpenVidu-04d365?style=flat-square&logo=openvidu&logoColor=white"/>
+    <img src="https://img.shields.io/badge/OpenVidu-1ABC9C?style=flat-square&logo=openvidu&logoColor=white"/>
     <img src="https://img.shields.io/badge/Zustand-433e38?style=flat-square&logo=zustand&logoColor=white"/>
     <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=black"/>
     <img src="https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css3&logoColor=white"/>
@@ -42,6 +42,8 @@ Kubernetes 를 활용한 MSA(Micro Service Architecture) 기반의 그룹웨어 
     <img src="https://img.shields.io/badge/OpenWeather-EA7600?style=flat-square&logo=openweathermap&logoColor=white"/>
     <img src="https://img.shields.io/badge/React_Router-CA4245?style=flat-square&logo=react-router&logoColor=white"/>
     <img src="https://img.shields.io/badge/WebSocket-000000?style=flat-square&logo=websocket&logoColor=white"/>
+    <img src="https://img.shields.io/badge/SweetAlert2-555555?style=flat-square&logoColor=white"/>
+
 </p>
 
 ### Backend
@@ -62,7 +64,7 @@ Kubernetes 를 활용한 MSA(Micro Service Architecture) 기반의 그룹웨어 
     <img src="https://img.shields.io/badge/Lombok-FFA500?style=flat-square&logo=lombok&logoColor=white"/>
     <img src="https://img.shields.io/badge/Gradle-02303A?style=flat-square&logo=gradle&logoColor=white"/>
     <img src="https://img.shields.io/badge/JDK-17-007396?style=flat-square&logo=java&logoColor=white"/>
-    <img src="https://img.shields.io/badge/Odoo-870048?style=flat-square&logo=odoo&logoColor=white"/>
+    <img src="https://img.shields.io/badge/STOMP-555555?style=flat-square&logoColor=white"/>
 </p>
 
 ### Infra
@@ -84,6 +86,9 @@ Kubernetes 를 활용한 MSA(Micro Service Architecture) 기반의 그룹웨어 
     <img src="https://img.shields.io/badge/Naver_Cloud-03C75A?style=flat-square&logo=naver&logoColor=white"/>
     <img src="https://img.shields.io/badge/Ubuntu-E95420?style=flat-square&logo=ubuntu&logoColor=white"/>
     <img src="https://img.shields.io/badge/Rocky%20Linux-10B981?style=flat-square&logo=rockylinux&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Docker_Hub-1488C6?style=flat-square&logo=docker&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Odoo-870048?style=flat-square&logo=odoo&logoColor=white"/>
 
 </p>
 
@@ -96,4 +101,21 @@ Kubernetes 를 활용한 MSA(Micro Service Architecture) 기반의 그룹웨어 
     <img src="https://img.shields.io/badge/Slack-4A154B?style=flat-square&logo=slack&logoColor=white"/>
     <img src="https://img.shields.io/badge/IntelliJ%20IDEA-000000?style=flat-square&logo=intellij-idea&logoColor=white"/>
     <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white"/>
 </p>
+
+## 페이지 구성
+사진 조절해서 너브러야해
+## 주요기능 소개
+1. 로그인
+2. 메인페이지
+3. 전자결재
+4. 캘린더
+5. 예약
+6. 게시판
+7. 이메일
+8. 근태관리
+9. 채팅
+10. 화상회의
+11. 관리자페이지
