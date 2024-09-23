@@ -22,7 +22,7 @@ Kubernetes 를 활용한 MSA(Micro Service Architecture) 기반의 그룹웨어 
 |:-:|:-:|:-:|:-:|:-:|:-:|
 |<img src="https://github.com/user-attachments/assets/32bc3037-92c0-488e-8b73-434cc747ef0f" alt="정진욱" width="225" />|<img src="https://github.com/user-attachments/assets/1856d47d-a062-49c0-9c5b-cb39e6bda50e" alt="김창인" width="225" />|<img src="https://github.com/user-attachments/assets/733e3700-87b7-4582-9a8b-202707a0da8a" alt="박보민" width="225" />|<img src="https://github.com/user-attachments/assets/fb7f848d-27ce-4d85-a5db-9932b916a044" alt="손가원" width="225" />|<img src="https://github.com/user-attachments/assets/51d4fffa-285e-4404-be6f-8bb000b8e8fb" alt="신완철" width="225" />|<img src="https://github.com/user-attachments/assets/bb0bf882-b748-40e7-846f-af09bd3bf1f5" alt="황재웅" width="225" />|
 |PM, Backend|Fronted|DevOps|Backend|Fronted|Fronted|
-|예약, 캘린더, 게시판, 채팅|메인페이지, 조직도, 전자결재|로그인|전자결재, 이메일, 채팅|게시판|예약, 메인페이지, 관리자페이지|
+|예약, 캘린더, 게시판, 채팅|메인페이지, 조직도, 전자결재, 화상회의|로그인|전자결재, 이메일, 채팅|게시판|예약, 메인페이지, 관리자페이지, 화상회의|
 
 ## Stacks
 ### Frontend
@@ -104,6 +104,128 @@ Kubernetes 를 활용한 MSA(Micro Service Architecture) 기반의 그룹웨어 
     <img src="https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white"/>
     <img src="https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white"/>
 </p>
+
+<details>
+<summary style="font-size: 23px">서버구성</summary>
+
+## MSA (MicroService Architecture)
+
+**마이크로서비스 아키텍처(MSA)** 은 모놀리식 아키텍처   을 여러 개의 작은 서비스로 나누어 각자 독립적으로 개발하고 배포하는 방식
+
+🎯 핵심 개념
+
+독립 서비스: 각 서비스는 특정 기능에 집중하고, 자체 프로세스에서 실행
+
+독립 배포: 서비스별로 개별적으로 업데이트하고 확장 가능
+
+다양한 기술 스택: 필요에 따라 각 서비스마다 다른 기술을 사용 가능
+
+🚀 장점
+
+유연한 확장성: 필요한 부분만 선택적으로 확장 가능
+
+빠른 개발 속도: 작은 팀들이 병렬로 작업하여 효율적으로 개발 가능
+
+장애 격리: 한 서비스의 문제가 전체 시스템에 영향이 없음
+
+###  모놀리식 아키텍처 vs 마이크로서비스 아키텍처
+
+||모놀리식 아키텍처|마이크로서비스 아키텍처|
+|---|---|---|
+|구조|하나의 거대한 코드베이스|작은 서비스들의 집합|
+|배포|전체 시스템을 한 번에 배포|서비스별로 독립적으로 배포|
+|확장성|전체 애플리케이션을 확장해야 함|필요한 서비스만 선택적으로 확장 가능|
+|개발 속도|큰 팀이 순차적으로 개발|작은 팀들이 병렬로 빠르게 개발|
+|유지보수|복잡도가 증가하여 유지보수 어려움|서비스 단위로 유지보수 용이|
+|장애 영향 범위|하나의 오류가 전체 시스템에 영향|오류가 발생한 서비스에만 영향 제한|
+|기술 스택|단일 기술 스택 사용|다양한 기술 스택 사용 가능|
+
+## K8S(kubernetes)
+
+Kubernetes는 컨테이너화된 애플리케이션의 배포, 확장 및 관리를 자동화하는 오픈 소스 플랫폼입니다. MSA를 효과적으로 구현하기 위한 강력한 도구로, 복잡한 마이크로서비스 환경을 손쉽게 관리할 수 있게 해줍니다.
+
+🚢 Kubernetes란?
+
+컨테이너 오케스트레이션 플랫폼: 다수의 컨테이너를 자동으로 배포하고 관리합니다.
+
+확장성 및 탄력성 제공: 애플리케이션의 부하에 따라 자동으로 확장하거나 축소합니다.
+
+셀프 힐링(Self-Healing): 실패한 컨테이너를 자동으로 재시작하고 교체합니다.
+
+🎯 MSA 구현을 위한 핵심 구성 요소
+
+1. ArgoCD로 CI/CD 파이프라인 구축
+    ArgoCD는 Kubernetes 네이티브 지속적 배포(CD) 도구로, 선언적 GitOps 방식을 사용합니다.
+
+    자동화된 배포: 코드 변경 사항이 자동으로 배포되어 개발 효율을 높입니다.
+
+    Git과의 통합: Git 리포지토리를 소스 오브 트루스로 사용하여 애플리케이션 상태를 관리합니다.
+
+2. Kong으로 API 게이트웨이 설정
+
+    Kong은 클라우드 네이티브 API 게이트웨이로, 마이크로서비스 간의 통신을 관리하고 보호합니다.
+
+    요청 라우팅 및 로드 밸런싱: 클라이언트 요청을 적절한 서비스로 전달합니다.
+
+    인증 및 권한 부여: 보안 플러그인을 통해 API 보안을 강화합니다.
+
+    모니터링 및 로깅: 트래픽 분석과 로깅을 지원하여 서비스 가시성을 높입니다.
+
+3. Istio로 서비스 메쉬 구성
+
+    Istio는 오픈 소스 서비스 메쉬 플랫폼으로, 서비스 간의 통신을 제어하고 관찰성을 제공합니다.
+
+    트래픽 관리: 라우팅 규칙을 세밀하게 제어하여 트래픽 흐름을 관리합니다.
+
+    보안 강화: 서비스 간의 통신을 암호화하고 인증을 제공합니다.
+
+    관찰성 제공: 분산 추적, 모니터링, 로깅을 통해 서비스 상태를 파악합니다.
+
+🛠️ Kubernetes와 함께 MSA 구현하기
+
+컨테이너화된 마이크로서비스: 각 서비스는 독립적인 컨테이너로 패키징됩니다.
+
+ArgoCD로 GitOps 워크플로우 구축: 선언적 설정을 통해 인프라와 애플리케이션을 관리합니다.
+
+Kong API 게이트웨이 설정: 외부 트래픽을 내부 서비스로 효율적으로 라우팅합니다.
+Istio 서비스 메쉬 통합: 서비스 간의 복잡한 통신을 쉽게 관리하고 보안을 강화합니다.
+
+🚀 장점
+
+운영 효율성 향상: 자동화된 관리로 운영 부담을 감소시킵니다.
+
+유연한 확장성: 트래픽에 따라 리소스를 동적으로 조절합니다.
+
+고가용성 보장: 장애 발생 시 자동 복구로 시스템 안정성을 유지합니다.
+
+보안 및 관찰성 강화: Istio와 Kong을 통해 보안과 서비스 가시성을 높입니다.
+
+개발 효율성 증대: ArgoCD를 통한 자동 배포로 개발 사이클을 단축합니다.
+
+### Kubernetes 노드 정보
+<img src="https://minio.bmops.kro.kr/groupbee/photo/node.png" width="600"/>
+
+### Kubernetes 서비스 분리
+
+<img src="https://minio.bmops.kro.kr/groupbee/photo/service.png" width="600"/>
+
+### ISTIO 내부 트래픽 그래프
+
+<img src="https://minio.bmops.kro.kr/groupbee/photo/Istio.png" width="600"/>
+
+### Kong Service
+
+<img src="https://minio.bmops.kro.kr/groupbee/photo/kong-service.png" width="600"/>
+
+### Kong Route
+
+<img src="https://minio.bmops.kro.kr/groupbee/photo/kong-route.png" width="600"/>
+
+### CI/CD 설계
+
+<img src="https://minio.bmops.kro.kr/groupbee/photo/CI:CD.png" width="600"/>
+
+</details>
 
 ## 페이지 구성
 사진 조절해서 너브러야해
